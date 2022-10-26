@@ -88,3 +88,154 @@ h6 {
     font-size: inherit;
     font-weight: inherit;
 }
+
+.header-wrapper {
+    background-image: url(/assets/images/header-image.jpg);
+}
+
+.header {
+    display: flex;
+    max-width: 1250px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.header-logo {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 17px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+
+}
+
+
+
+.header-menu-item {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header-menu-item-flag {
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.header-menu-item-korzina {
+    cursor: pointer;
+}
+
+.header-menu-item-lupa {
+    cursor: pointer;
+}
+
+.str {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 315px;
+    gap: 40px;
+}
+
+.header-text1 {
+    font-family: 'Mrs Saint Delafield';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 17px;
+    color: #FFFFFF;
+    max-width: 491px;
+}
+
+.header-text2 {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 795px;
+}
+
+.header-text3 {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 541px;
+}
+
+.btn-order-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+    width: 155px;
+    height: 51px;
+    background: #00D664;
+    border-radius: 27.5px;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+
+}
+
+.btn-request-a-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 25px;
+    gap: 10px;
+    width: 216px;
+    height: 55px;
+    background: #00D664;
+    border-radius: 30px;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 39px;
+    margin-bottom: 255px;
+}
