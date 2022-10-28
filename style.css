@@ -239,3 +239,44 @@ h6 {
     margin-top: 39px;
     margin-bottom: 255px;
 }
+.about{
+display: flex;
+flex-direction: column;
+}
+.text_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 128px;
+}
+.about_text1{
+    font-family: 'Mrs Saint Delafield';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 27px;
+text-align: center;
+color: #ACACAC;
+}
+.about_text2{
+    font-family: 'Neue Haas Unica';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 58px;
+text-align: center;
+color: #1E266D;
+}
+.about_text3{
+    font-family: 'Neue Haas Unica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #696969;
+max-width: 822px;
+}
