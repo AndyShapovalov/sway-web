@@ -901,3 +901,105 @@ h6 {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.subscribe {
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 222px;
+    padding-bottom: 82px;
+}
+
+.name_subscribe {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #39374D;
+    max-width: 400px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_mail_btn_check {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input_btn {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.input_email {
+    background: #EDFCF4;
+    border: 1px solid #F3F3F3;
+    border-radius: 30px;
+    width: 427px;
+    height: 55px;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    color: #1E266D;
+    padding-left: 20px;
+}
+
+.btn_subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 36px;
+    gap: 10px;
+    width: 162px;
+    height: 51px;
+    background: #00D664;
+    border-radius: 27.5px;
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.checkbox_description {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.checkbox {
+    width: 13px;
+    height: 13px;
+}
+
+.description_check {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #ACACAC;
+}
