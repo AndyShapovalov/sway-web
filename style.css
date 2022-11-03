@@ -766,3 +766,138 @@ h6 {
     padding-top: 4px;
 
 }
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+.cards_review {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(0, 214, 100, 0.1);
+    border-radius: 50%;
+    color: #00D664;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card_review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 381px;
+    padding: 51px 38px 43px 30px;
+}
+
+.title_card_review {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.name_profession {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name_reviewer {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00D664;
+}
+
+.profession_reviewer {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ACACAC;
+}
+
+.feetback {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1E266D;
+}
+
+.about_review {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #696969;
+
+}
+
+.mark_review {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.mark_five {
+    font-family: 'Neue Haas Unica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #F5AD0D;
+}
+
+.five_stars {
+    width: 80px;
+    height: 16px;
+    background-image: url(./assets/icon/star.svg);
+}
+
+.put_review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.green_put {
+    width: 10px;
+    height: 10px;
+    background: #00D664;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.white_put {
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 214, 100, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
