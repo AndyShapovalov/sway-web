@@ -1003,3 +1003,9 @@ h6 {
     letter-spacing: -0.01em;
     color: #ACACAC;
 }
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
